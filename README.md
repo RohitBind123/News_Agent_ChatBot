@@ -13,27 +13,29 @@ This is an intelligent chatbot powered by Groq LLM and SerpAPI, built using Lang
 🔍 AgentType: SELF_ASK_WITH_SEARCH for smart tool use
 
 📁 Project Structure
+```.
 ├── .env                   # Environment variables (API keys)
 ├── app.py                 # Main Streamlit app script
 ├── README.md              # Project documentation
+```
 
 🔑 Prerequisites
 You need the following API keys:
 
-GROQ_API_KEY – for accessing Groq's LLM
+```GROQ_API_KEY – for accessing Groq's LLM```
 
-SERP_API_KEY – for querying news via SerpAPI
+```SERP_API_KEY – for querying news via SerpAPI```
 
 Create a .env file in the project root:
-GROQ_API_KEY=your_groq_api_key_here
-SERP_API_KEY=your_serpapi_key_here
+```GROQ_API_KEY=your_groq_api_key_here```
+```SERP_API_KEY=your_serpapi_key_here```
 
 🧪 Installation
 Install dependencies:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ▶️ Run the App
-streamlit run app.py
+```streamlit run app.py```
 
 🧠 How it Works
 The user enters a question.
